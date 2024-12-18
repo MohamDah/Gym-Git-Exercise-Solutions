@@ -245,4 +245,4 @@ git push origin ft/squashing
 
 ### Exercise 1
 Link to the GitHub pages thing:
-[](https://mohamdahalu.github.io/b1e1/)
+https://mohamdahalu.github.io/b1e1/
