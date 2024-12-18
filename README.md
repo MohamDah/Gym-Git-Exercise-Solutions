@@ -198,3 +198,51 @@ git commit -m "change home.html"
 
 git push origin ft/home-page-redesign
 ```
+
+## Bundle 4
+
+### Exercise 1
+```bash
+git checkout main
+
+git remote add git-copy https://{MY TOKEN}@github.com/MohamDahALU/new-repository-git-exercises.git
+
+git add home.html
+
+git commit -m "change home.html"
+
+git push origin main
+
+git push git-copy main
+```
+
+### Exercise 2
+```bash
+git checkout -b ft/footer
+
+git add home.html
+
+git commit -m "changed home.html"
+
+git add file1.txt
+
+git commit -m "changed file1.txt"
+
+git push origin ft/footer
+
+git checkout main
+
+git checkout -b ft/squashing
+
+git merge --squash ft/footer
+
+git commit -m "footer changes squashing"
+
+git push origin ft/squashing
+```
+
+## Bundle 5
+
+### Exercise 1
+Link to the GitHub pages thing:
+[](https://mohamdahalu.github.io/b1e1/)
