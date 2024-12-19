@@ -246,3 +246,63 @@ git push origin ft/squashing
 ### Exercise 1
 Link to the GitHub pages thing:
 https://mohamdahalu.github.io/b1e1/
+
+### Exercise 2
+```bash
+git clone https://{MY TOKEN}@github.com/MohamDahALU/git-cafe-exercise.git
+
+cd git-cafe-exercise/
+
+git add index.html
+
+git commit -m "change index.html"
+
+git push origin main
+```
+
+## Bundle 6
+
+### Exercise 1
+```bash
+git checkout -b feature
+
+git add Menu.html
+
+git commit -m "added Menu.html"
+
+git push origin feature
+
+# I couldn't request a review.
+```
+
+### Exercise 2
+```bash
+git checkout main
+
+git checkout -b bugfix
+
+git add index-4.html
+
+git commit -m "change title of index-4.html to 'Contact'"
+
+git push origin bugfix
+
+# I alse couldn't request a review here.
+```
+
+### Exercise 3
+```bash
+git checkout main
+
+git checkout -b hotfix
+
+git add index-4.html
+
+git commit -m "change index-4.html"
+
+git push origin hotfix
+```
+### Exercise 4
+
+Reviewed PR:
+https://github.com/Rosine22/git-repo-theGym/pull/4#pullrequestreview-2512018171
